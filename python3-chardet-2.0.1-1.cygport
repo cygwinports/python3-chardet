@@ -1,0 +1,5 @@
+ORIG_PN=${PN}
+inherit distutils
+
+HOMEPAGE="http://chardet.feedparser.org/"
+SRC_URI="http://chardet.feedparser.org/download/${ORIG_PN}-${PV}.tgz"
