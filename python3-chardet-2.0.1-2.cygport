@@ -1,0 +1,10 @@
+ORIG_PN=${PN}
+inherit python3-distutils
+
+CATEGORY="Python"
+SUMMARY="Py3K character encoding detection library"
+DESCRIPTION="Character encoding auto-detection in Python 2 and 3."
+HOMEPAGE="http://chardet.feedparser.org/"
+SRC_URI="http://chardet.feedparser.org/download/${ORIG_PN}-${PV}.tgz"
+# website is down
+SRC_URI="mirror://gentoo/${ORIG_PN}-${PV}.tgz"
