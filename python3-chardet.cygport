@@ -1,0 +1,10 @@
+inherit python3-distutils
+
+NAME="python3-chardet"
+VERSION=2.2.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Py3K character encoding detection library"
+DESCRIPTION="Character encoding auto-detection in Python 2 and 3."
+
+ARCH=noarch
